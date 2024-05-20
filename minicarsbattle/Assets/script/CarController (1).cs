@@ -95,8 +95,8 @@ public class CarController : MonoBehaviour
     
     private void getUserInput()
     {
-        horizontalInput = (SimpleInput.GetAxis("Horizontal"));
-        verticalInput =( SimpleInput.GetAxis("Vertical"));
+        horizontalInput = (Input.GetAxis("Horizontal"));
+        verticalInput =( Input.GetAxis("Vertical"));
         //isFren = Input.GetKey(KeyCode.Space);
         if (Input.GetKeyDown(KeyCode.R))
         {
